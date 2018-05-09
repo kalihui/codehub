@@ -1,0 +1,6 @@
+package: Accurity             
+version: 1.0.0             
+architecture: amd64        
+maintainer: 黄宇 <yuhuang@simm.ac.cn>                                 
+description: None           
+

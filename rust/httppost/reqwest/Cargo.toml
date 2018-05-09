@@ -1,0 +1,11 @@
+[package]
+name = "httppost"
+version = "0.1.0"
+authors = ["ukaihui <ukaihui@ubuntukh>"]
+
+[dependencies]
+futures = "0.1"
+hyper = "0.11"
+tokio-core = "0.1"
+rustc-serialize = "*"
+reqwest="*"

@@ -78,8 +78,7 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 
-    alias ls='ls -GFh'
-#   alias ls='ls --color=auto'
+
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
@@ -95,9 +94,10 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -GFh'
+alias ls='ls -GFh --color=auto'
+alias ll='ls -GFh --clor=auto -l'
+alias la='ls -GFh --clor=auto -A'
+alias l='ls -GFh --clor=auto'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

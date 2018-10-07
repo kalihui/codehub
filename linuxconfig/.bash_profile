@@ -95,9 +95,12 @@ fi
 
 # some more ls aliases
 alias ls='ls -GFh --color=auto'
-alias ll='ls -GFh --clor=auto -l'
-alias la='ls -GFh --clor=auto -A'
-alias l='ls -GFh --clor=auto'
+alias ll='ls -GFh --color=auto -l'
+alias la='ls -GFh --color=auto -A'
+alias l='ls -GFh --color=auto'
+
+
+alias vps='ssh root@148.163.48.25 -p 1314'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
